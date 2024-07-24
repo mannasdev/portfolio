@@ -1,8 +1,26 @@
+"use client";
+
+import { useState } from "react";
 import Blog from "@/components/common/Blog";
 import { Navbar } from "@/components/common/Navbar";
 import ThemeToggle from "@/components/common/ThemeToggle";
+import { blogs } from "@/components/lists/blogs";
 
 const page = () => {
+  const [searchInput, setSearchInput] = useState("");
+  const [filteredBlogs, setFilteredBlogs] = useState(blogs);
+
+  const handleInputChange = (e: any) => {
+    const input = e.target.value.toLowerCase();
+    setSearchInput(input);
+    const filtered = blogs.filter(
+      (blog) =>
+        blog.heading.toLowerCase().includes(input) ||
+        blog.oneLine.toLowerCase().includes(input)
+    );
+    setFilteredBlogs(filtered);
+  };
+
   return (
     <>
       <ThemeToggle />
@@ -16,10 +34,19 @@ const page = () => {
               <input
                 type="text"
                 className="border border-black mt-auto rounded-md text-md p-1"
+                value={searchInput}
+                onChange={handleInputChange}
               />
             </div>
           </div>
-          <Blog heading={"AI"} oneLine={"AI is very good"} />
+          {filteredBlogs.map((blog, index) => (
+            <Blog
+              key={index}
+              heading={blog.heading}
+              oneLine={blog.oneLine}
+              link={blog.link}
+            />
+          ))}
         </section>
       </main>
     </>
