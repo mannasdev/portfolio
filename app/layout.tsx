@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
+const jetbrain = JetBrains_Mono({subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${jetbrain.className} overflow-x-hidden`}>
+
+      <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
