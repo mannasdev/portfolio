@@ -12,7 +12,7 @@ const page = () => {
           <Navbar />
           <div className="flex gap-2 mt-5 max-md:flex-col">
             <img
-              src="/mannas.png"
+              src="/me.jpg"
               alt="Mannas photo"
               className="rounded-xl h-48 w-auto max-md:h-auto max-md:w-48"
             />
