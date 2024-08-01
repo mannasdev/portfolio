@@ -19,7 +19,7 @@ const page = () => {
             <p className="text-sm">
               I'm Mannas, a 19yo developer currently pursuing a bachelors degree
               in data science and artificial intelligence from IITG. I started
-              coding at 14yo where I participated in a robotics competition
+              coding at 12yo where I participated in a robotics competition
               called FLL (first lego league) I later participated in another
               robotics competition called GRC. I won positions in both the
               competitions. I later started exploring proper coding during covid
