@@ -72,7 +72,7 @@ export default function Home() {
             <h2 className="text-2xl underline-offset-4 underline">
               Latest Blog
             </h2>
-            <Blog heading="First Blog" oneLine="this is my first blog" />
+            <Blog heading="Linux Tier List" oneLine="what is linux? should you switch to it? and what is the best linux distro" />
           </div>
 
           <Line />
