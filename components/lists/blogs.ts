@@ -1,4 +1,9 @@
 export const blogs = [
+  {
+    heading: "Linux Tier List",
+    oneLine: "what is linux? should you switch to it? and what is the best linux distro?",
+    link: "/linux-tier-list"
+  },
   { 
     heading: "My Unexpected Journey into Cybersecurity and Bug Hunting",
     oneLine: "this is a blog about how I accidentally got good at cybersecurity",

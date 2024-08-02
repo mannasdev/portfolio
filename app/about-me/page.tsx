@@ -17,7 +17,7 @@ const page = () => {
               className="rounded-xl h-48 w-auto max-md:h-auto max-md:w-48"
             />
             <p className="text-sm">
-              I'm Mannas, a 19yo developer currently pursuing a bachelors degree
+              I'm Mannas Narang, a 19yo developer currently pursuing a bachelors degree
               in data science and artificial intelligence from IITG. I started
               coding at 12yo where I participated in a robotics competition
               called FLL (first lego league) I later participated in another
