@@ -16,7 +16,7 @@ export default function Home() {
           <div className="mt-2 text-lg">
             <p>
               -&gt; hi, my name is <b>mannas</b>, i love building stuff using
-              typescript and rust <Link href="https://drive.google.com/file/d/1Un9pFjK6ATGxshWilcLcyWXrc--VO_Ew/view?usp=sharing" className="text-blue-700">click here to get my resume</Link>
+              typescript and rust <Link href="https://drive.google.com/file/d/17GxMvv_ZvqSdIPj9yKkZr84PQKmuxuxk/view?usp=sharing" className="text-blue-700">click here to get my resume</Link>
             </p>
           </div>
           <Line />
