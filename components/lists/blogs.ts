@@ -1,5 +1,10 @@
 export const blogs = [
   {
+    heading: "The Journey of India's Space Program: From Aryabhata to Chandrayaan",
+    oneLine: "India's space program has evolved from its humble beginnings to become one of the most successful and cost-effective space agencies in the world.",
+    link: "/isro-aryabhatta-to-chandrayaan"
+  },
+  {
     heading: "Linux Tier List",
     oneLine: "what is linux? should you switch to it? and what is the best linux distro?",
     link: "/linux-tier-list"
