@@ -1,5 +1,10 @@
 export const blogs = [
   {
+    heading: "My LinkedIn got hacked",
+    oneLine: "this is a blog about how my linkedin got hacked",
+    link: "/linkedin-got-hacked"
+  },
+  {
     heading: "The Journey of India's Space Program: From Aryabhata to Chandrayaan",
     oneLine: "India's space program has evolved from its humble beginnings to become one of the most successful and cost-effective space agencies in the world.",
     link: "/isro-aryabhatta-to-chandrayaan"
