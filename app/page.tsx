@@ -40,13 +40,13 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://x.com/_mannas">
-                    &gt;&gt; x.com (twitter) - &#123;@_<span className="text-blue-700">mannas</span>&#125;
+                  <Link href="https://x.com/Mannas5441">
+                    &gt;&gt; x.com (twitter) - &#123;@<span className="text-blue-700">Mannas5441</span>&#125;
                   </Link>
                 </li>
                 <li>
                   <Link href="">
-                    &gt;&gt; email - &#123;mannasnarang8@gmail.com&#125;
+                    &gt;&gt; email - &#123;me@mannas.dev&#125;
                   </Link>
                 </li>
               </ul>
